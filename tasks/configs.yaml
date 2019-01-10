@@ -1,0 +1,5 @@
+- name: link i3 config
+  file:
+    src: "{{ playbook_dir + '/configs/i3/config' }}"
+    dest: ~/.config/i3/config
+    state: link
