@@ -4,3 +4,4 @@
   tasks:
     - include: tasks/packages.yaml
     - include: tasks/configs.yaml
+    - include: tasks/misc.yaml
