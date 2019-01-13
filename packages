@@ -1,5 +1,6 @@
 networkmanager
 xf86-video-intel
+openssh
 i3-gaps
 rxvt-unicode
 vim
@@ -15,3 +16,5 @@ firefox
 rofi
 i3lock
 fzf
+htop
+neofetch
