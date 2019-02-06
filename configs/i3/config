@@ -192,3 +192,15 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 
 # Set wallpaper
 exec --no-startup-id feh --bg-fill '/home/mynameismud/Pictures/minimalist-solar-system-1920×1080.jpg'
+
+# Geoclue agent for redshift
+exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
+
+# Autostart redshift
+exec --no-startup-id redshift -l 54.21:18.38
+
+# Autostart dropbox
+exec --no-startup-id ~/.dropbox-dist/dropboxd
+
+# Screen lock magic button
+bindsym XF86Launch1 exec --no-startup-id i3lock-wrapper.sh

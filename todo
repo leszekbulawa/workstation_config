@@ -1,0 +1,8 @@
+dropbox installation
+dropbox controll script
+libxslt install
+python2 install
+sudo mkdir -p /etc/systemd/system/sleep.target.wants/
+sudo ln -s $PWD/screenlock.service /etc/systemd/system/sleep.target.wants/
+install joplin
+yaourt installations
